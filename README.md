@@ -302,7 +302,7 @@ $ sudo service mysql restart
 ### 查找占用端口程序
 
 ```shell
-netstst -aon | findstr "被占用端口号"
+netstat -aon | findstr "被占用端口号"
 ```
 
 例如
